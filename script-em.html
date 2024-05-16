@@ -1,7 +1,7 @@
 <script>
 window.RufflePlayer = window.RufflePlayer || {};
 window.RufflePlayer.config = {
-    "autoplay": "on","splashScreen": false,"unmuteOverlay": "hidden"
+    "autoplay": "on","splashScreen": true,"unmuteOverlay": "hidden"
 };
 
     window.addEventListener("load", (event) => {
@@ -9,7 +9,7 @@ window.RufflePlayer.config = {
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
         container.appendChild(player);
-        player.load("https://example.com/Your-Movie.swf");
+        player.load("bloons-tower-defense-5.swf");
         player.style.width = "700px";
         player.style.height = "400px";
     });
