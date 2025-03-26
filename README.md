@@ -1,1 +1,1 @@
-99% of this code works... On opisite day.
+This is a website where a just put a bunch of flash games and other things. I think at least half of the stuff works. 
